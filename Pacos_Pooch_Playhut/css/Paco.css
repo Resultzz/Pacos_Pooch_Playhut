@@ -1,0 +1,133 @@
+
+
+
+
+body{ 
+font-family: Arial, sans-serif;
+background-color:#DDb247;
+color:#457373;	
+
+}
+h2
+{ text-align:center;
+  background-color:#CD7E59;
+ 
+}
+
+ul.nav {
+  float:none;
+  position:absolute;
+  top:10%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  display:inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #CD7E59;
+  
+}
+
+li.nav {
+	
+  float: left;
+}
+
+li a {
+  color:#457373;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #D9C179;
+}
+
+#adopt{  border:solid #E5E4E2;
+
+  text-align:center;
+  margin-left:20%;
+  margin-right:20%;
+  background-color:	#CD7E59;
+}
+p.body
+{
+  border:solid #E5E4E2;
+
+  text-align:center;
+  margin-left:20%;
+  margin-right:20%;
+  background-color:	#CD7E59;
+}
+.top{
+	background-color:#CD7E59;
+	border:solid #000000;
+	float:left;
+	padding: 5px 5px 5px 5px;
+	margin-top: 10%;
+    width:10%;	
+}
+aside {
+	background-color:#CD7E59;
+	border:solid #000000;
+	float:right;
+
+	padding: 5px 5px 5px 5px;
+	font-size:18px;
+    width:10%;	
+}
+
+
+/* for event page */
+
+
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #457373;
+  border:1px solid #000000;
+}
+
+.weekdays li {
+  font-weight:bold;
+  display: inline-block;
+  width: 13.95%;
+  color: #CD7E59;
+  text-align: center;
+}
+
+.days {
+  padding: 10px;
+  background: #eee;
+  margin: 0;  /* connects top calendar to bottom */
+  border:1px solid #000000;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 14%;
+  text-align: center;
+  margin-top:15px;
+  margin-bottom: 30px;
+  font-size:15px;
+  color: #777;
+  vertical-align:top;
+  
+  
+}
+
+}
+form {
+    display: inline-block;
+}
+
+
+footer{ vertical-align:bottom;}
+table{ 
+margin-left:35%;}
+td{ text-align:center;height:50;width:100;font-weight:bold;}
